@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand';
+}
+h2 {
+	margin: 0px;
+}
+.home {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(90deg, #0a0b23, #1b0939);
+	font-size: 28px;
+	color: white;
+}
+.home p {
+	color: #ccc;
+	font-size: 20px;
+	display: flex;
+	padding: 15px;
+	text-align: center;
+}
+.preview {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: linear-gradient(180deg, #140930, #000000);
+	margin-top: -150px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#130a29), color-stop(80%, #141617));
+	background: linear-gradient(to bottom, #130a29 0%, #141617 80%);
+}
+.h-100 {
+	background: #131516;
+	color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 4rem;
+	justify-content: center;
+}
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	font-family: 'Quicksand';
+	justify-content: center;
+}
+.features > div {
+	font-size: 13px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	letter-spacing: 2px;
+	font-weight: bolder;
+}
+
+.icon-holder {
+	background: rgba(138, 220, 51, 0.05);
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	margin-bottom: 15px;
+	padding: 0.1rem;
+}
+
+.features div:hover .icon-holder {
+	background: #1d88e517;
+}
+
+.icon-holder i {
+	height: 30px;
+	width: 30px;
+}
+
+.social a {
+	margin: 0 5px;
+}
+
+.btn {
+	border: 0px;
+	background: transparent;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border: 1px solid #fff;
+	margin: 0 5px;
+	padding: 10px 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.primary {
+	background: #1d88e5;
+	border: 1px solid #1d88e5;
+}
+
+.primary:hover {
+	background: transparent;
+}
+
+.btn i {
+	margin-right: 6px;
+}
+
+.btn:hover {
+	border: 1px solid #1d88e5;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background: #131516;
+	color: #fff;
+	font-size: 14px;
+	padding: 1rem 0;
+	padding-bottom: 2rem;
+}
+
+footer i,
+footer a {
+	margin: 0 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #1d88e5;
+}
