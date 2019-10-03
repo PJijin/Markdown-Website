@@ -3,9 +3,11 @@ body {
 	padding: 0;
 	font-family: 'Quicksand';
 }
+
 h2 {
 	margin: 0px;
 }
+
 .home {
 	height: 100vh;
 	display: flex;
@@ -16,6 +18,7 @@ h2 {
 	font-size: 28px;
 	color: white;
 }
+
 .home p {
 	color: #ccc;
 	font-size: 20px;
@@ -23,6 +26,7 @@ h2 {
 	padding: 15px;
 	text-align: center;
 }
+
 .preview {
 	display: flex;
 	justify-content: center;
@@ -32,6 +36,7 @@ h2 {
 	background: -webkit-gradient(linear, left top, left bottom, from(#130a29), color-stop(80%, #141617));
 	background: linear-gradient(to bottom, #130a29 0%, #141617 80%);
 }
+
 .h-100 {
 	background: #131516;
 	color: #fff;
@@ -39,6 +44,7 @@ h2 {
 	padding-bottom: 4rem;
 	justify-content: center;
 }
+
 .features {
 	display: flex;
 	flex-wrap: wrap;
@@ -46,7 +52,8 @@ h2 {
 	font-family: 'Quicksand';
 	justify-content: center;
 }
-.features > div {
+
+.features>div {
 	font-size: 13px;
 	width: 300px;
 	display: flex;
@@ -57,6 +64,18 @@ h2 {
 	margin-top: 2rem;
 	letter-spacing: 2px;
 	font-weight: bolder;
+}
+
+.powered {
+	align-items: center;
+	background: #131516;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.powered img {
+	margin: 0 10px;
 }
 
 .icon-holder {
