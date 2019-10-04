@@ -2,10 +2,37 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Quicksand';
+	background: #131516;
 }
 
 h2 {
 	margin: 0px;
+}
+
+.feature {
+	display: flex;
+	justify-content: center;
+	padding: 80px 0;
+	background: #131516;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	/* width: 1024px; */
+}
+
+.feature img {
+	max-width: 400px;
+	max-height: 300px;
+}
+
+.ta-start {
+	text-align: start;
+	padding: 25px;
+}
+
+.feature div {
+	flex: 1;
 }
 
 .home {
@@ -53,7 +80,7 @@ h2 {
 	justify-content: center;
 }
 
-.features>div {
+.features > div {
 	font-size: 13px;
 	width: 300px;
 	display: flex;
@@ -72,10 +99,13 @@ h2 {
 	display: flex;
 	justify-content: center;
 	color: #fff;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .powered img {
 	margin: 0 10px;
+	max-height: 50px;
 }
 
 .icon-holder {
