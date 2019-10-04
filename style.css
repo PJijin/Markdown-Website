@@ -186,3 +186,9 @@ footer a {
 	text-decoration: none;
 	color: #1d88e5;
 }
+
+@media only screen and (max-width: 600px) {
+	.feature {
+		display: block;
+	}
+}
