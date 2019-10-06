@@ -199,4 +199,7 @@ footer a {
 	.feature {
 		display: block;
 	}
+	.preview {
+		margin-top: 0px;
+	}
 }
