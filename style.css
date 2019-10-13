@@ -31,6 +31,10 @@ h2 {
 	padding: 25px;
 }
 
+.ta-start p {
+	text-align: justify;
+}
+
 .feature div {
 	flex: 1;
 }
@@ -58,10 +62,25 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background: linear-gradient(180deg, #140930, #000000);
 	margin-top: -150px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#130a29), color-stop(80%, #141617));
-	background: linear-gradient(to bottom, #130a29 0%, #141617 80%);
+	padding-top: 50px;
+	background: #0f1119;
+	margin-bottom: 40px;
+}
+
+.preview svg {
+	position: relative;
+	top: -30px;
+	left: 65px;
+}
+
+.container {
+	width: 900px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	vertical-align: c;
+	margin: 0 auto;
 }
 
 .h-100 {
