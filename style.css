@@ -45,7 +45,7 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: linear-gradient(90deg, #0a0b23, #1b0939);
+	background: linear-gradient(0deg, #121416, #1b0939);
 	font-size: 28px;
 	color: white;
 }
@@ -57,21 +57,28 @@ h2 {
 	padding: 15px;
 	text-align: center;
 }
+.live-preview {
+	display: flex;
+	margin: 0 auto;
+	width: 90%;
+}
 
 .preview {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	margin-top: -150px;
-	padding-top: 50px;
+	padding-top: 0;
+	border-radius: 4px;
 	background: #0f1119;
+	width: 100%;
 	margin-bottom: 40px;
 }
 
 .preview svg {
 	position: relative;
-	top: -30px;
-	left: 65px;
+	padding: 1rem;
 }
 
 .container {
